@@ -9,8 +9,8 @@ $("button").click(function () {
 
     let stitches = [];
 
-    const rows = Math.round((radius / 10) * rowGauge);
-    const cmPerRow = radius / rows;
+    const rows = Math.round((diameter / 10) * rowGauge);
+    const cmPerRow = diameter / rows;
 
     //console.log(rows)
 
@@ -35,3 +35,4 @@ $("button").click(function () {
 
 
 });
+
