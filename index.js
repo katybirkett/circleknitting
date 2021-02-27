@@ -30,6 +30,8 @@ $("button").click(function () {
         }
         circleLength = circleLength + cmPerRow;
     }
+
+    $(".calculation").text("You will need to knit " + rows + " rows. Here are the stitches needed for each of these rows to make a circle:" + stitches);
     console.log(stitches)
 
 
