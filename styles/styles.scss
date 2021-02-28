@@ -1,0 +1,29 @@
+$alternateColour: #06353d;
+$lightColour: #dee3e2;
+
+
+
+
+body {
+    text-align: center;
+    background-color: $lightColour;
+    color: $alternateColour;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+/* containers and sections */
+
+.container-fluid {
+    padding: 5% 15%;
+}
+
+/* icons */
+.contact-icon {
+    color: $lightColour;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2.5rem;
+}

@@ -1,4 +1,3 @@
-$("h1").css("color", "blue");
 
 $("button").click(function () {
     let stitchGauge = $("input[type=number][name=stitchGauge]").val();
