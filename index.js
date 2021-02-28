@@ -20,7 +20,7 @@ $("button").click(function () {
     // length = radius - current length of circle
     // solve for width
     let circleLength = cmPerRow;
-    for (let i = 0; i < rows; i++) {
+    for (let i = 0; i < (rows - 1); i++) {
 
         let l = radius - circleLength;
         let width = Math.sqrt((radius * radius) - (l * l));
