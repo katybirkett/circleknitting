@@ -31,7 +31,7 @@ $("button").click(function () {
 
         $(".calculation").text("You will need to knit " + rows +
             " rows. Here are the stitches needed for each of these rows to make a circle: "
-            + stitches.join(", "));
+            + stitches.join(", ") + ". Spread the increases and decreases as evenly as possible throughout the rows.");
     }
 
 });
